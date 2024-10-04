@@ -1,0 +1,19 @@
+div{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+div > p{
+    color: yellow;
+}
+div p{
+    color: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

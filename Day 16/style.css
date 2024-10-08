@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+}
+
+.cred{
+    background-color: red;
+}
+.caqua{
+    background-color: aqua;
+}
+.cyellow{
+    background-color: yellow;
+}
+#cbrown{
+    background-color: brown;
+}
+h1.addit{
+    background-color: chartreuse;
+}

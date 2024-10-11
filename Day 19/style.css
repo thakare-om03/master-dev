@@ -1,0 +1,9 @@
+.box{
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 25px;
+    box-shadow: 5px 10px 5px blue;
+    text-shadow: 2px 2px 4px greenyellow;
+    outline: 10px solid yellow;
+    outline-offset: 5px;
+}

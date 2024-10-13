@@ -1,0 +1,14 @@
+.box > p{
+    width: 100vw;
+    height: 50vh;
+    border: 5px solid black;
+    overflow: scroll;
+    white-space: nowrap;
+}
+.box p:not(:first-child){
+    width: 100vw;
+    height: 50vh;
+    border: 5px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

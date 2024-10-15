@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 1px solid black;
+    height: 75vh;
+    width: 50vw;
+    position: absolute;
+}
+.box1{
+    border: 1px solid blanchedalmond;
+    height: 65vh;
+    width: 40vw;
+    top: 10px;
+    left: 12.5px;
+    position: absolute;
+}
+.box2{
+    border: 1px solid burlywood;
+    height: 50vh;
+    width: 38vw;
+    top: 13px;
+    left: 15px;
+    right: 18px;
+    position: absolute;
+}
+.box3{
+    border: 1px solid green;
+    height: 20vh;
+    width: 38vw;
+    top: 130px;
+    left: 15px;
+    right: 18px;
+    position: absolute;
+}

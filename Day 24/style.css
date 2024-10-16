@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color: red;
+    --seccolor: rgb(193, 164, 164);
+    --pad: 8px;
+}
+.nav{
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor);
+}
+ul{
+    display: flex;
+    padding:var(--pad);
+}
+ul li{
+    list-style-type: none;
+    padding: 35px;
+}
+ul li:first-child{
+    --color: yellow;
+    background-color: var(--color);
+}

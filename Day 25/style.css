@@ -1,0 +1,23 @@
+body{
+    background-color: yellow;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        background-color: green;
+    }
+    .box{
+        flex-direction: column;
+    }
+}
+
+.box{
+display: flex;
+}
+.boxes{
+    padding: 3px;
+    background-color: rebeccapurple;  
+    margin: 3px;
+    width: 344px;
+    height: 344px;
+}

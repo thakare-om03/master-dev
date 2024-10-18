@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Default Theme */
+    --bg-color: aqua;
+    --nav-color: red;
+    --first-li-color: yellow;
+    --second-li-color: green;
+    --third-li-color: blue;
+    --box-bg-color: rebeccapurple;
+    --pad: 8px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.nav {
+    background-color: var(--nav-color);
+}
+
+ul {
+    display: flex;
+    padding: var(--pad);
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 35px;
+}
+
+/* Individual list item colors */
+ul li:nth-child(1) {
+    background-color: var(--first-li-color);
+}
+ul li:nth-child(2) {
+    background-color: var(--second-li-color);
+}
+ul li:nth-child(3) {
+    background-color: var(--third-li-color);
+}
+
+/* Flexbox container styling */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: var(--pad);
+}
+
+.boxes {
+    padding: 3px;
+    background-color: var(--box-bg-color);
+    margin: 3px;
+    width: 160px;
+    height: 160px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    .box {
+        flex-direction: column;
+    }
+}

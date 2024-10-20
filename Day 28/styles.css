@@ -1,0 +1,18 @@
+.box:first-child{
+    background-color: yellow;
+}
+.box::first-line{
+    background-color: red;
+}
+.box:nth-child(even){
+    background-color: green;
+}
+.boxes::before{
+    content: "hi";
+}
+.boxes::after{
+    content: "bye";
+}
+::selection{
+    background-color: blue;
+}

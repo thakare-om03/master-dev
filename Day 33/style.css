@@ -1,0 +1,16 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+.box{
+    border: 2px solid black;
+    width: 20vw;
+    height: 20vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(30deg) skew(40deg);
+    transform-origin: 0% 0%;
+}

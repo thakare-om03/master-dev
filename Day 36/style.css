@@ -1,0 +1,30 @@
+.container{
+    width: 80vw;
+    height: 90vh;
+    border: 2px solid black;
+    background-color: chocolate;
+
+}
+.box{
+    width: 15vw;
+    height: 15vh;
+    border: 2px solid black;
+    background-color: aqua;
+    animation: animations 2s infinite alternate-reverse;
+    animation-play-state: running;
+}
+
+@keyframes animations{
+    move{
+        transform: translateZ(100px);
+        background-color: green;
+    }
+    from{
+        transform: translateY(50px);
+        background-color: yellow;
+    }
+    to{
+        transform: translateX(100px);
+        background-color: red;
+    }
+}
